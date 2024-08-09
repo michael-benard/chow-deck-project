@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="row pt-3">
+                <div class="col-8 col-md-7 d-flex align-items-center gap-4">
+                    <img src="/img/image copy 21.png" alt="">
+                    <div style="font-size: small; display: flex; gap: 5px;"><i class="bi bi-geo-alt" style="color:#02c27f;"></i><a href="" style="text-decoration: none;color: #000;">Enter Address</a><i class="bi bi-chevron-down"></i></div>
+                </div>
+                <div class="col-12 order-3 order-md-2 mt-3 mt-md-0 d-flex align-items-center justify-content-end" id="input" style="position: relative;">
+                    <input type="search" placeholder="search...">
+                    <i class="bi bi-search"></i>
+                </div>
+                <div class=" col-4 gap-1 d-flex justify-content-end order-md-3" id="special" style="position: relative;">
+                    <span><a href="" style="text-decoration: none; color: #ffffff;"><i class="bi bi-cart"></i></a></span>
+                    <div id="span">1</div>
+                    <span><a href="" style="text-decoration: none; color: #ffffff;"><i class="bi bi-person"></i></a></span>
+                </div>
+            </div>
+        </header>
+        <div class=" col-12 fx">
+            <div class="row mx-3">
+                <div class="col-12 col-8 d-flex d-md-none bg-success" style="color: white;align-items: center; height: 60px;white-space: nowrap;border-radius: 10px;background-color: #0c513f;">
+                   <a href="" style="text-decoration: none; color: inherit; display: flex; gap: 60%;">
+                       <p style="padding: 0;margin: 0; ">Proceed to order 1 item</p>
+                       <p style="padding: 0;margin:0;">#7,800</p>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mt-1 mt-md-0">
+                    <a href="" style="text-decoration: none; color: inherit; display: flex;justify-content: end;">
+                        <div style="height: 40px; width: 40px;border-radius: 50px;background-color: #198754;color: white;display: flex;align-items: center;justify-content: center;font-size: large;font-weight: bolder;">
+                            <i class="bi bi-bookmark-fill"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <main style=" margin-bottom: 30px; border-bottom: 1px solid #e6f7f1; padding-bottom: 40px;">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="row">
+                        <div class="col-12 d-none d-md-flex pb-3 pt-1 align-items-center">
+                           <span><i class="bi bi-arrow-left-short"></i>Restaurant</span>
+                        </div>
+                        <div class="col-12 mb-2 mb-md-0" id="food" style="position: relative;">
+                            <img src="/img/image copy 28.png" alt=""> 
+                           <span id="time" class=" d-flex gap-1"><i class="bi bi-clock"></i>11-21mins</span>
+                        </div>
+                        <div class="col-12 col-md-8 d-flex align-items-center" id="rate">
+                            <div class="col-8 col-md-6">
+                                <span><h2>KFC-Oando Berger</h2></span>
+                            </div>
+                            <div class="col-4 col-md-2  d-flex justify-content-md-start justify-content-end">
+                                <span style="font-size: small; display: flex; gap: 5px;">5.0 <i class="bi bi-star-fill"></i>(5) </span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 pt-0 pt-md-3 order-4 order-md-2">
+                            <div id="btn">
+                                <span class="btn btn-primary"><a href="">Deliver now</a></span>
+                                <span class="btn btn-secondary"><a href="">pickup</a></span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-12 mt-1 mt-md-3 mb-2 mb-md-3 order-2 order-2 order-md-3 justify-content-start align-items-center">
+                            <p style="font-size: small; color: #8bc091;">CHICKEN FAST FOOD</p>
+                            <hr class="d-none d-md-block">
+                        </div>
+                        <div class="col-6 order-3 order-md-4 mt-1 mt-md-2 mb-3 mb-md-0 justify-content-end justify-content-md-start align-items-center">
+                            <h5 style="font-size: medium;" class="d-none d-md-flex">Opening time</h5>
+                            <p class="text-end text-md-start">09:00 am-09:00 pm</p>
+                        </div>
+                        <div class="col-6 text-start mt-3 mt-md-0 text-md-end order-5 d-flex align-items-center justify-content-start justify-content-md-end">
+                            <h5 style="font-size: medium; color: #508174;">Min Order:#0</h5>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-12 d-flex align-items-center mt-4" id="scroll">
+                            <ul>
+                                <li id="active"><a href="">ALL</a></li>
+                                <li><a href="">SREETWISE</a></li>
+                                <li><a href="">FAMILYMEALS</a></li>
+                                <li><a href="">5-IN-1</a></li>
+                                <li><a href="">WINGS & CHICKEN</a></li>
+                                <li><a href="">SIDES</a></li>
+                                <li><a href="">DRINKS</a></li>
+                                <li><a href="">BUCKETS</a></li>
+                                <li><a href="">COMBOS/MEALS</a></li>
+                                <li><a href="">EXTRAS</a></li>
+                                <li><a href="">BURGERS</a></li>
+                                <li><a href="">PROMOTIONS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div id="original" style="border: 1px solid #e5e7eb; border-radius: 10px;">
+                                <a href="">
+                                    <div id="cob">
+                                        <h5 style="font-size: large;">5 Pieces-Original Chicken</h5>
+                                        <p style="font-size: small; color: #999999;">COB-OR 5 PIECES</p>
+                                        <h4 style="font-size: large;font-weight: bold;">#13,200</h4>
+                                    </div>
+                                    <div>
+                                        <img src="/img/image copy 2.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 mt-4 mt-md-0">
+                            <div id="down" style="border: 1px solid #e5e7eb; border-radius: 10px;">
+                                <a href="">
+                                    <div id="double">
+                                        <h5 style="font-size: large;">KFC DOUBLE DOWN</h5>
+                                        <p style="font-size: small; color: #999999;">KFC DOUBLE DOWN</p>
+                                        <h4 style="font-size: large;font-weight: bold;">#7,800</h4>
+                                    </div>
+                                    <div>
+                                        <img src="/img/image copy.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-12 col-md-6">
+                            <div id="burger" style="border: 1px solid #e5e7eb; border-radius: 10px;">
+                                <a href="">
+                                    <div id="burger-meat">
+                                        <h5 style="font-size: large;">ZINGER BURGER</h5>
+                                        <p style="font-size: small; color: #999999;">ZINGER BURGER</p>
+                                        <h4 style="font-size: large;font-weight: bold;">#6,100</h4>
+                                    </div>
+                                    <div>
+                                        <img src="/img/image copy 10.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 mt-4 mt-md-0">
+                            <div id="meal-box" style="border: 1px solid #e5e7eb; border-radius: 10px;">
+                                <a href="">
+                                    <div id="zinger">
+                                        <h5 style="font-size: large;">5 IN 1 MEAL BOX (ZINGER WINGS & PLAINTAIN)</h5>
+                                        <p style="font-size: small; color: #999999;">1Pc HC/OR,2Pc Zinger Wings,1KFC Spicy Rice,1Reg Plantain Cubes & 1 Pepsi Btl</p>
+                                        <h4 style="font-size: large;font-weight: bold;">#10,080</h4>
+                                    </div>
+                                    <div>
+                                        <img src="/img/image copy 3.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row  mt-4">
+                        <div class="col-12 col-md-6">
+                            <div id="pop-corn" style="border: 1px solid #e5e7eb; border-radius: 10px;">
+                                <a href="">
+                                    <div id="chicken-pop">
+                                        <h5 style="font-size: large;">5 IN 1 MEAL BOX (CHICKEN POP CORN)</h5>
+                                        <p style="font-size: small; color: #999999;">1Pc HC/OR,1Pc 1Zinger Burger,1Reg yam Fries,1 Btl Drink & 1 Reg popcorn</p>
+                                        <h4 style="font-size: large;font-weight: bold;">#12,600</h4>
+                                    </div>
+                                    <div>
+                                        <img src="/img/image copy 4.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 mt-4 mt-md-0">
+                            <div id="strips" style="border: 1px solid #e5e7eb; border-radius: 10px;">
+                                <a href="">
+                                    <div id="strip">
+                                        <h5 style="font-size: large;">5 IN 1 MEAL BOX (2 Strips)</h5>
+                                        <p style="font-size: small; color: #999999;">1Pc HC/OR,1Pc 1Zinger Burger,1Reg yam Fries,1 Btl Drink & 2 Strips</p>
+                                        <h4 style="font-size: large;font-weight: bold;">#12,600</h4>
+                                    </div>
+                                    <div>
+                                        <img src="/img/image copy 5.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row  mt-4">
+                        <div class="col-12 col-md-6">
+                            <div id="spec" style="border: 1px solid #e5e7eb; border-radius: 10px;">
+                                <a href="">
+                                    <div id="box">
+                                        <h5 style="font-size: large;">5 IN 1 SPECIAL MEAL BOX</h5>
+                                        <p style="font-size: small; color: #999999;">1Pc HC/OR,1 Reg Yam Fries,1Reg yam Fries,3 Pc Zimger Wngs,3 Pc Strips,1 Btl Drink</p>
+                                        <h4 style="font-size: large;font-weight: bold;">#13,680</h4>
+                                    </div>
+                                    <div>
+                                        <img src="/img/image copy 2.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 mt-4 mt-md-0">
+                            <div id="three" style="border: 1px solid #e5e7eb; border-radius: 10px;">
+                                <a href="">
+                                    <div id="fridays">
+                                        <h5 style="font-size: large;">ZINGER TRIPPLE TREAT-Only On Fridays</h5>
+                                        <p style="font-size: small; color: #999999;">3 Zinger Burgers-Only On Fridays</p>
+                                        <h4 style="font-size: large;font-weight: bold;">#12,100</h4>
+                                    </div>
+                                    <div>
+                                        <img src="/img/image copy 25.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row  mt-4">
+                        <div class="col-12 col-md-6">
+                            <div id="pcs" style="border: 1px solid #e5e7eb; border-radius: 10px;">
+                                <a href="">
+                                    <div id="kfc">
+                                        <h5 style="font-size: large;">12 PCS KFC BUCKETS</h5>
+                                        <p style="font-size: small; color: #999999;">COB-OR /HC 12 PIECES & 2 Pepsi Btl</p>
+                                        <h4 style="font-size: large;font-weight: bold;">#32,500</h4>
+                                    </div>
+                                    <div>
+                                        <img src="/img/image copy 8.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 mt-4 mt-md-0">
+                            <div id="tray" style="border: 1px solid #e5e7eb; border-radius: 10px;">
+                                <a href="">
+                                    <div id="combo">
+                                        <h5 style="font-size: large;">ZINGER TRIPLE TREAT Combo</h5>
+                                        <p style="font-size: small; color: #999999;">3 Zinger Burgers , 2 Reg Yam Fries. 2 pepsi- only on Fridays</p>
+                                        <h4 style="font-size: large;font-weight: bold;">#19,800</h4>
+                                    </div>
+                                    <div>
+                                        <img src="/img/image copy 26.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row  mt-4">
+                        <div class="col-12 col-md-6">
+                            <div id="burger-2" style="border: 1px solid #e5e7eb; border-radius: 10px;">
+                                <a href="">
+                                    <div id="fries">
+                                        <h5 style="font-size: large;">DOUBLE ZINGER BURGER</h5>
+                                        <p style="font-size: small; color: #999999;">One Burger</p>
+                                        <h4 style="font-size: large;font-weight: bold;">#8,400</h4>
+                                    </div>
+                                    <div>
+                                        <img src="/img/image copy 10.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 mt-4 mt-md-0">
+                            <div id="wings" style="border: 1px solid #e5e7eb; border-radius: 10px;">
+                                <a href="">
+                                    <div id="pie">
+                                        <h5 style="font-size: large;">ZINGER WINGS 3PCS</h5>
+                                        <p style="font-size: small; color: #999999;">ZINGER WINGS 3PCS</p>
+                                        <h4 style="font-size: large;font-weight: bold;">#4,300</h4>
+                                    </div>
+                                    <div>
+                                        <img src="/img/image copy 11.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 d-none d-md-block" id="side">
+                    <div class="row" style="border-left: 1px solid#e5e7eb; padding-left: 5px; margin-left: 4px;"  id="aside">
+                        <div class="col-12 pt-5">
+                            <div>
+                                <div class="row mb-3">
+                                   <div class="col-12 d-flex pb-2" style="gap: 110px; border-bottom: 1px solid #e5e7eb;">
+                                     <div style="font-size: 13px; display: flex; align-items: center;color: #306b5c;">KFC-Oando Burger</div>
+                                     <div id="pack"><a href=""><i class="bi bi-plus"></i> Add another pack</a></div>
+                                   </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-12 d-flex" style="border-bottom: 1px solid #e5e7eb; padding-bottom: 20px; margin-bottom: 30px;">
+                                                <div style="margin-right: 30px; padding:15px 8px ; border-radius: 5px; border: 1px dashed #d1d5db; align-items: center;justify-content: center;">
+                                                    <div class="row">
+                                                        <div class="col-12" style="display: flex; gap: 270px;">
+                                                            <div style="display: flex; align-items: center;">
+                                                                <p>Pack 1</p>
+                                                            </div>
+                                                            <div style="display: flex;align-items: center; justify-content: center;height: 30px;width: 30px;border-radius: 50px;background-color: #fef2f2;"><a href="" style="text-decoration: none;color: #ff0000;"><i class="bi bi-trash"></i></a></div>
+                                                        </div>
+                                                        <div class="col-12" style="display: flex; gap: 145px;">
+                                                            <div style="display:block;align-items: center;">
+                                                                <h6 style="font-size: 14px; font-weight: lighter;">KFC DOUBLE DOWN</h6>
+                                                                <p style="font-size: 11px;">#7,200</p>
+                                                            </div>
+                                                            <div id="pck">
+                                                                <a href=""><i class="bi bi-dash"></i> 1 <i class="bi bi-plus"></i></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12" style="display: flex; gap: 140px;">
+                                                            <div id="plus">
+                                                                <a href=""><i class="bi bi-plus" style="font-weight: bolder;"></i>Add to this pack</a>
+                                                            </div>
+                                                            <div class="duplicate">
+                                                                <p>
+                                                                    <a href="">Duplicate pack</a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                
+                                                </div>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12" style="border-bottom: 1px solid #e5e7eb;padding-bottom:30px ;margin-bottom: 20px;">
+                                        <a href="" class="d-flex" style="text-decoration: none;color: black; gap: 9px;">
+                                            <img src="/img/image copy 27.png" alt="" style="height:18%;">
+                                            <div>
+                                                <h6 style="margin-bottom: 0;">Need a chowdeck brown bag?</h6>
+                                                <p style="font-size: small;">Package your order in a brown bag for just #200</p>
+                                            </div>
+                                           <div style="display: flex; align-items: center;justify-content: center;margin-top: 20px; margin-left: 19px; height: 19px; width: 20px; border-radius: 50px; border: 2px solid #09ab72;">
+                                            <input type="radio">
+                                           </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12" id="listing" style="border-bottom: 1px solid #e5e7eb; padding-bottom: 8px; margin-bottom: 30px;">
+                                        <div class="d-flex" style="gap: 210px;">
+                                            <h6>Payment method</h6>
+                                            <p><a href="">Choose</a></p>
+                                        </div> 
+                                        <div class="d-flex" style="gap: 240px;">
+                                            <h6>Promo code</h6>
+                                            <p><a href="">Choose</a></p>
+                                        </div> 
+                                        <div class="d-flex" style="gap: 215px;">
+                                            <h6>Choose Address</h6>
+                                            <p><a href="">Change</a></p>
+                                        </div> 
+                                        <div class="d-flex" style="gap: 210px;">
+                                            <h6>Delivery Instructions</h6>
+                                            <p><a href="">Add</a></p>
+                                        </div> 
+                                        <div class="d-flex" style="gap: 210px;">
+                                            <h6>Vendors Instructions</h6>
+                                            <p><a href="">Add</a></p>
+                                        </div> 
+                                     </div>
+                                </div>
+                                <div class="col-12" style="border-bottom: 2px solid #e6f7f1;padding-bottom: 30px;">
+                                    <div class="d-flex gap-1" style="background-color:#e6f7f1;width: 91%;padding:3px 7px; border-radius: 10px;">
+                                        <div style="display: flex;align-items: center;justify-content: center;margin-top: 12px; height: 16px;width: 16px; border-radius: 50px;border: 2px solid #05aa70;color: #05aa70; font-size: x-small;">i</div>
+                                        <div class="pt-2">
+                                            <h6 style="font-size: 13px;margin-bottom: 0;">Delivery includes PIN confirmation</h6>
+                                            <p style="font-size:11px;">This helps ensure that your order is given to the right person</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12" id="commission" style="font-size: 14px;font-weight: lighter;padding-top: 30px;  padding-bottom: 8px; margin-bottom: 30px;">
+                                        <div class="d-flex" style="gap: 208px;">
+                                            <h6>Sub total fee(1 item)</h6>
+                                            <p>#7800</p>
+                                        </div> 
+                                        <div class="d-flex" style="gap: 273px;">
+                                            <h6>Delivery fee</h6>
+                                            <p>#0</p>
+                                        </div> 
+                                        <div class="d-flex" style="gap: 280px;">
+                                            <h6>Service fee</h6>
+                                            <p>#0</p>
+                                        </div> 
+                                        <div class="d-flex" style="gap: 290px; color: #000; font-weight: bold;">
+                                            <h6 style="font-weight: bold;">Total</h6>
+                                            <p>#7800</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center mb-3">
+                                    <button style="width: 89%;height: 60px;border-radius: 20px;border: none;background-color: #0c513f;"><a href="" style="font-weight: bold; text-decoration: none;color:white ;">Place order</a></button>
+                                </div>
+                                <div class="col-12 text-center mb-3">
+                                    <button  style="width: 89%;height: 60px;border-radius: 20px;border: none;background-color:#fdefeb;"><a href="" style="font-weight: bold; text-decoration: none;color:#f6b09e ;">Clear orders</a></button>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <a href="" style="font-weight: bold; text-decoration: none;color:#05aa70;">
+                                      Save for later
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="row">
+                <div class=" col-12 col-md-6">
+                    <img src="/img/image.png" alt="">
+                </div>
+                <div class="col-6 " id="place">
+                    <div class="row">
+                        <div class="col-10 col-md-2">
+                            <h5>LOCATIONS</h5>
+                            <ul style="white-space: nowrap;">
+                                <li><a href="">Kimg Glab Maryland</a></li>
+                                <li><a href="">Unilag</a></li>
+                                <li><a href="">Alagomeji</a></li>
+                                <li><a href="">Fola Agoro</a></li>
+                                <li><a href="">Ibadan 1</a></li>
+                                <li><a href="">Ibadan 2</a></li>
+                                <li><a href="" style="text-decoration: underline;color: #3daa79;">see more</a></li>                              
+                            </ul>
+                        </div>
+                        <div class="col-2 col-md-2">
+                            <h5>DOWNLOAD</h5>
+                            <ul style="white-space: nowrap;">
+                                <li><a href="">Google Play Store</a></li>
+                                <li><a href="">IOS App Store</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-10 col-md-2">
+                            <h5>GET HELP</h5>
+                            <ul style="white-space: nowrap;">
+                                <li><a href="">Email</a></li>
+                                <li><a href="">Chat</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-2 col-md-2">
+                            <h5>LEGAL</h5>
+                            <ul style="white-space: nowrap;">
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Terms of use</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="row bg-warning">
+                    <div class="col-6">
+                        <a href="">
+                            <i class="bi bi-facebook">face</i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
